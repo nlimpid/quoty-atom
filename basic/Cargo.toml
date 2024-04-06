@@ -1,0 +1,21 @@
+[package]
+name = "quoty-basic"
+version = "0.1.0"
+authors = ["jshuangzl@gmail.com"]
+
+[lib]
+name = "quoty-basic"
+edition = "2021"
+
+[dependencies]
+snafu = "0.8.2"
+ical = { version = "0.10", default-features = false, features = ["ical"] }
+voyager = { version = "0.1" }
+chrono = { version = "0.4.37" , features = ["serde"]}
+scraper = "0.19.0"
+reqwest = { version = "0.12.2", features = ["blocking"] }
+tokio = { version = "1.37.0", features = ["full"] }
+iso_country = "0.1.4"
+chrono-tz = "0.8.6"
+serde = { version = "1.0.197", features = ["derive"] }
+csv = "1.3.0"

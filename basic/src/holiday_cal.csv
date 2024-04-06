@@ -1,0 +1,4 @@
+market,timezone,date,status
+US,America/New_York,2023-12-25,CLOSE
+CN,Asia/Shanghai,2024-01-01,HALF
+HK,Asia/Hong_Kong,2023-11-23,CLOSE
